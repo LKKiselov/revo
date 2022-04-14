@@ -1,0 +1,36 @@
+body {
+  background-image: url(/resources/bgimg.gif);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Mono", monospace;
+}
+
+table {
+  width: 750px;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: rgb(49, 49, 49);
+}
+tr:nth-of-type(even) {
+  background: rgb(2, 2, 2);
+}
+
+th {
+  background: #000000;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
